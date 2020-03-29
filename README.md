@@ -12,10 +12,26 @@ pip install numpy
 
 ## Usage
 
-```python
-import foobar
+You just have to do 3 steps.
+1) Open solve.py
+2) Edit your inputs.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Setup your matrix, for example like this
+
+```python
+matrix = np.matrix('1 -2 4; 4 3 -4; 1 5 6')
 ```
+Then set the dimension, in this example is n=3
+```python
+n = 3
+```
+The last thing to edit is to set your solution vector.
+```python
+svector = [7, -1, -5]
+```
+
+3) Run the script with
+```bash
+python solve.py
+```
+and you should get your results.
