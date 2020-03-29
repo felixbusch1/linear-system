@@ -36,6 +36,7 @@ Then you have this system
 # 1x +5y + 6z = -5 
 
 The output is numerated like this: x1, x2..., xn
+
 So in this example x1 = x, x2 = y and x3 = z
 
 3) Run the script with
