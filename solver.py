@@ -97,7 +97,7 @@ def det(matrix, n):
             #Get the value of the sub determinant recursively
             submatrix = np.delete(temp, i, axis=0)
             
-            #Unterdeterminante berechnen
+            #Calculate sub determinant
             x = det(submatrix, n-1)
 
             #Calculate the value of the determinant
