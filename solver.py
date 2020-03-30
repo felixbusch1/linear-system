@@ -1,5 +1,4 @@
 import numpy as np
-import argparse
 
 #Setup matrix
 matrix = np.matrix('1 -2 4; 4 3 -4; 1 5 6')
