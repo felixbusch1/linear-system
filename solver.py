@@ -1,13 +1,13 @@
 import numpy as np
 
 #Setup matrix
-matrix = np.matrix('1 -2 4; 4 3 -4; 1 5 6')
+matrix = np.matrix('1')
 
 #Set dimension of the matrix
-n = 3
+n = 1
 
 #Setup solution vector for the matrix
-svector = [7, -1, -5]
+svector = [0]
 
 #In this case we have the following equations:
 #-----------------------
@@ -70,7 +70,10 @@ def getBestColumn(matrix, n):
 # Return value: The determinant of the input matrix
 
 def det(matrix, n):
-     #In case the dimension of the input matrix is n=2 
+    if n == 1:
+        return matrix.item(0)
+       
+    #In case the dimension of the input matrix is n=2 
     if n == 2:
         return matrix.item(0) * matrix.item(3) - matrix.item(1) * matrix.item(2)
     else:
@@ -128,6 +131,3 @@ for i in range(n):
     #Reinsert the original column vector
     for j in range(n):
         matrix.itemset((j,i), temp.item(j))
-
-    
-    
