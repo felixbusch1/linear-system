@@ -1,6 +1,7 @@
 # Linear system of equations
 
 This python script solves linear systems of equations
+NOTE: Tested on Microsoft Windows 10. On Linux (Ubuntu) could appear floating point inaccuracy.
 
 ## Installation
 
