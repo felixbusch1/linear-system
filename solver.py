@@ -38,23 +38,23 @@ def getBestColumn(matrix, n):
         
         #Select the i-th column vector of the matrix
         vector = matrix[:,[i]]
-
-        #Count the zeros for every entry in the vector
+	
+    	#Count the zeros for every entry in the vector
         for j in range(n):
             if vector.item(j) == 0:
                 currentNumberOfZeros += 1
-
-                #Refresh selected column with the most number of zeros
-                #Refresh the total number of zeros
+		
+		        #Refresh selected column with the most number of zeros
+		        #Refresh the total number of zeros
                 if currentNumberOfZeros > totalNumberOfZeros:
                     totalNumberOfZeros = currentNumberOfZeros
                     col = i
-
-            #Reset for next iteration
-            currentNumberOfZeros = 0
-
-        #Return the index of the column
-        return col
+   	    
+	    #Reset for next iteration
+        currentNumberOfZeros = 0
+	
+	#Return the index of the column.
+    return col
 
 
 # Function name: det()
