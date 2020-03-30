@@ -1,13 +1,13 @@
 import numpy as np
 
 #Setup matrix
-matrix = np.matrix('1')
+matrix = np.matrix('1 -2 4; 4 3 -4; 1 5 6')
 
 #Set dimension of the matrix
-n = 1
+n = 3
 
 #Setup solution vector for the matrix
-svector = [0]
+svector = [7, -1, -5]
 
 #In this case we have the following equations:
 #-----------------------
