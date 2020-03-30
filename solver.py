@@ -16,7 +16,7 @@ svector = [7, -1, -5]
 # -- 1x +5y + 6z = -5 --
 #-----------------------
 
-# Function name: getBestColumn()
+# Function name: getBestColumn() (optinal in this implementation)
 #
 # Description: This function returns the index of the column of the input matrix
 # 	       with the most number of zeros in it. If there are no zeros in the matrix,
