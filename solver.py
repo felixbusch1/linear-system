@@ -50,8 +50,9 @@ def getBestColumn(matrix, n):
                     totalNumberOfZeros = currentNumberOfZeros
                     col = i
    	    
-	#Reset for next iteration
-    currentNumberOfZeros = 0
+        #Reset for next iteration
+        currentNumberOfZeros = 0
+    
     return col
 
 
