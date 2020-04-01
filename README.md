@@ -2,7 +2,7 @@
 
 Python implementation for solving linear equation systems.
 
-NOTE: Tested on Microsoft Windows 10. On Linux (Ubuntu) could appear floating point inaccuracy.
+Tested on Microsoft Windows 10
 
 ## Installation
 
