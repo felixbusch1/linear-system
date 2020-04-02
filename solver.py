@@ -51,7 +51,7 @@ def det(matrix, n):
         #We have to calculate n- subdeterminants
         for i in range(n):
             
-            #Delete the column with the most number of zeros in it
+            #Delete the first column
             temp = np.delete(matrix, 0, axis=1)
             
             #Get the value of the sub determinant recursively
